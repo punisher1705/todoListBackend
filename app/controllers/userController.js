@@ -7,6 +7,7 @@ const validateInput = require('../libs/paramsValidationLib')
 const check = require('../libs/checkLib')
 const passwordLib = require('../libs/generatePasswordLib');
 const token = require('../libs/tokenLib')
+const SendOtp = require('sendotp')
 
 const UserModel = mongoose.model('User');
 const AuthModel = mongoose.model('Auth')
